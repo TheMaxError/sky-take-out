@@ -1,0 +1,37 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: root
+
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    accessKeyId: LTAI5tB3eHWYJ4dxPr8p13wK
+    accessKeySecret: LcSYOiAz3jeUEM0BI5M8j7TbPuwxmC
+    bucketName: my-web-oss
+
+  redis:
+    port: 6379
+    password:
+    host: localhost
+    database: 0
+
+  wxchat:
+    appid: wx892691486bd134ba
+    secret: dbe2c5f00d9bc35a45748d85b64755ca
+    mchid: 1561414331
+    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+    privateKeyFilePath: C:\software\apiclient_key.pem
+    apiV3Key: CZBK51236435wxpay435434323FFDuv3
+    weChatPayCertFilePat: C:\software\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
+    notifyUrl: https://9ea0754.r19.cpolar.top/notify/paySuccess
+    refundNotifyUrl: https://9ea0754.r19.cpolar.top/notify/refundSuccess
+
+  shop:
+    address: 广东省深圳市南山区深圳大学东北门
+  baidu:
+    ak: YkCq9sleADV6AdZaANmaTv0ohqh6CS2w
+    #mchid是商户号，out_trade_no是订单号，appid是应用的id，notify_url是回调地址，amount是总金额，payer是支付者，openid是当前付款用户的openid。
